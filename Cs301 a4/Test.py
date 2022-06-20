@@ -26,14 +26,12 @@ def Shortestpath(B, T, TT, n, Matrix):
 #T = [[]]
 #TT = []
 
-#just bus station by transform train matrix infinity
+#just bus station by makeing train matrix infinity
 #INF = 999999999
 #m5b=np.random.randint(0,200,size=(5,5))
 #for i in range(5):
 #    m5b[i][i]=0
 #B = list(map(list, m5b))
-#
-#print(B)
 #
 #T = [[INF, INF, INF, INF, INF],
 #    [INF, INF, INF, INF, INF],
