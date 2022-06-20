@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+w=0.4
+
+
+city_no = np.array([5, 10, 15, 20, 50, 100, 200, 300, 400, 500])
+runtime = np.array([0.0005016326904296875, 0.0010008811950683594, 0.003501415252685547, 0.007504940032958984, 0.12060284614562988, 0.9272983074188232, 7.3749988079071045, 25.9803946018219, 62.27887558937073, 121.78975367546082])
+
+#5 city run time 0.0005016326904296875
+#10 city run time 0.0010008811950683594
+#15 city run time 0.003501415252685547
+#20 city run time 0.007504940032958984
+#50 city run time 0.12060284614562988
+#100 city run time 0.9272983074188232
+#200 city run time 7.3749988079071045
+#300 city run time 25.9803946018219
+#400 city run time 62.27887558937073
+#500 city run time 121.78975367546082
+
+plt.plot(city_no, runtime, label='time')
+plt.xlabel('number of cities')
+plt.ylabel('time')
+plt.title('increase of time with number of cities')
+plt.show()
